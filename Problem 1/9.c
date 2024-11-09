@@ -6,8 +6,8 @@ int main()
     double dlVar = 3.1416;
     bool booleanVar = true;
 
-    printf("%f\n", dlVar);
-    printf("%d\n", booleanVar);
+    printf("%f", dlVar);
+    printf("\n%d", booleanVar);
 
     return 0;
 }
