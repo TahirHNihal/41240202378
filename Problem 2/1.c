@@ -4,11 +4,8 @@ int main()
 {
     float x, y;
 
-    printf("Enter x number: ");
-    scanf("%f", &x);
-
-    printf("Enter y number: ");
-    scanf("%f", &y);
+    printf("Enter value of X and Y: ");
+    scanf("%f %f", &x, &y);
 
     float add = x + y;
     float sub = x - y;
