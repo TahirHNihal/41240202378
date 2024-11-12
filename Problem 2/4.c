@@ -2,10 +2,10 @@
 
 int main()
 {
-    int x = -5;
+    int x;
 
-    // printf("Enter a number: ");
-    // scanf("%d", &x);
+    printf("Enter a number: ");
+    scanf("%d", &x);
 
     printf("X++ : %d\n", x++);
     printf("++X : %d\n", ++x);
