@@ -8,7 +8,7 @@ int main()
     scanf("%d %d", &x, &y);
 
     printf("Incremented Value: %d", x += y);
-    printf("\nDecremented Value: %d", x -= 2 * y);
+    printf("\nDecremented Value: %d", x -= y);
 
     return 0;
 }
