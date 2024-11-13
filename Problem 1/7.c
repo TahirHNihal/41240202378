@@ -6,16 +6,10 @@ int main()
     float fltNum;
     char charVar;
 
-    printf("Type an integer number:");
-    scanf("%d", &intNum);
+    printf("Enter an integer, floating number and a charecter: ");
+    scanf("%d %f %c", &intNum, &fltNum, &charVar);
 
-    printf("Type a float number:");
-    scanf("%f", &fltNum);
-
-    printf("Type a character:");
-    scanf(" %c", &charVar);
-
-    printf("\nThe interger value: %d", intNum);
+    printf("The interger value: %d", intNum);
     printf("\nThe floating point value: %f", fltNum);
     printf("\nThe character value: %c", charVar);
 
