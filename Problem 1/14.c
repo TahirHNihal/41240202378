@@ -1,16 +1,19 @@
 #include <stdio.h>
 
-int var = 10;
+void globalVar(){
+    int var = 10;
+    printf("\nGlobal: %d", var);
+}
 
 int main()
 {
-    printf("Global: %d\n", var);
+    globalVar();
 
     int var = 20;
 
-    printf("Local: %d\n", var);
-
-    // C. Explicitly print the value of the global variable
+    printf("\nLocal: %d", var);
+    
+    globalVar();
 
     return 0;
 }
